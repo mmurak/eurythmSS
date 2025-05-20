@@ -1,0 +1,62 @@
+html{
+	background-color: powderblue;
+	height: 100%;
+}
+body{
+	height: 100%;
+	margin: 0;
+	padding: 5;
+}
+#PlayPause{
+	width: 20%;
+	height: 28px;
+	background-color: #000088;
+	color: white;
+}
+#PlayPause:disabled{
+	color: lightgrey;
+	background-color: #4682b4;
+}
+#SpeedVal{
+	width: 50%;
+}
+#PitchVal{
+	width: 50%;
+}
+.OpButton{
+	height: 30px;
+	width: 15%;
+	text-align: center;
+}
+#ModelPlay{
+	width: 20%;
+}
+#RecButton{
+	cursor: grab;
+	width: 80%;
+	height: 60px;
+	background-color: #ff6600;
+	color: white;
+	font-size: 18pt;
+	margin: 10px 0 10px 0;
+}
+#RecButton:disabled{
+	color: lightgrey;
+	background-color: #e9967a;
+}
+#RecButton:active{
+	cursor: grabbing;
+}
+header{
+	padding: 0 5px 0 0;
+	text-align: right;
+	font-size: 110%;
+	font-style: italic;
+}
+footer{
+	text-align: right;
+	padding: 5;
+	position: sticky;
+	top: 100vh;
+	width: 100%;
+}
